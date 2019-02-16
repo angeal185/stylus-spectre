@@ -1,0 +1,16 @@
+{
+  "name": "stylus-spectre",
+  "version": "1.0.0",
+  "authors": [
+    "ben eaves"
+  ],
+  "description": "stylus port of spectre.css",
+  "main": "index.js",
+  "keywords": ["stylus-spectre", "stylus-spectre","spectre-css","spectre","spectre-css-framework","stylus-port","stylus"],
+  "license": "MIT",
+  "homepage": "https://github.com/angeal185/stylus-spectre",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angeal185/stylus-spectre.git"
+  }
+}
