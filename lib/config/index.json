@@ -1,0 +1,40 @@
+{
+  "baseInstall":"./node_modules/",
+  "baseDir":"stylus-spectre/",
+  "baseFile":"spectre.styl",
+  "baseName":"spectre",
+  "baseDest": "./dist",
+  "baseBuild": ["spectre.styl", "example/stylus-spectre.js", "example/gulpfile.js"],
+  "version": "1.0.0",
+  "main":{
+    "compile":{
+      "enable":true,
+      "command":"-o ./dist"
+    },
+    "compress":{
+      "enable":true,
+      "command":"-c -o ./dist/spectre.min.css"
+    },
+    "compileSourceMaps":{
+      "enable":false,
+      "command":"-m -o ./dist"
+    },
+    "compressSourceMaps":{
+      "enable":false,
+      "command":"-c -m -o ./dist/spectre.min.css"
+    }
+  },
+  "options":{
+    "compile":true,
+    "compress":true,
+    "compileSourceMaps":false,
+    "compressSourceMaps":false,
+    "toWatch":[
+      "./spectre.styl",
+      "./includes",
+      "./includes/icons",
+      "./includes/mixins",
+      "./includes/utilities"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "stylus-spectre",
+  "version": "1.0.0",
+  "description": "Spectre css ported to stylus",
+  "main": "index.js",
+  "scripts": {
+    "compile": "stylus spectre.styl -o ./dist",
+    "compress": "stylus spectre.styl -c -o ./dist/spectre.min.css",
+    "compileM": "stylus spectre.styl -m -o ./dist",
+    "compressM": "stylus spectre.styl -c -m -o ./dist/spectre.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/stylus-spectre.git"
+  },
+  "keywords": ["stylus-spectre", "stylus-spectre","spectre-css","spectre","spectre-css-framework","stylus-port","stylus"],
+  "author": "ben eaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeal185/stylus-spectre/issues"
+  },
+  "homepage": "https://github.com/angeal185/stylus-spectre#readme"
+}

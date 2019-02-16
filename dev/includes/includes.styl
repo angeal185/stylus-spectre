@@ -1,0 +1,13 @@
+// includes
+
+if $spectre
+  for i in $spectre-sub
+    @import i
+
+if $spectre-exp
+  for i in $spectre-exp-sub
+    @import i
+
+if $spectre-icons
+  for i in $spectre-icons-sub
+    @import 'icons/' + i
